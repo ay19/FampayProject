@@ -1,0 +1,19 @@
+{
+  "name": "fampay",
+  "version": "1.0.0",
+  "description": "famPay project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.5",
+    "express": "^4.17.1",
+    "googleapis": "^78.0.0",
+    "mongoose": "^5.8.13",
+    "mongoose-fuzzy-searching": "^2.0.2",
+    "node-schedule": "^2.1.0"
+  },
+  "author": "Ayush Goyal",
+  "license": "ISC"
+}

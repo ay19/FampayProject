@@ -1,0 +1,6 @@
+{
+    "YOUTUBE_API_KEY": ["ApiKey1", "ApiKey2"],
+    "YOUTUBE_SEARCH_QUERY": "cricket",
+    "PAGE_LIMIT":10,
+    "MONGODB_URL": "mongodb://localhost:27017"
+}
