@@ -24,7 +24,7 @@ mongoose.connect(`${config.MONGODB_URL}/YouTube`, {
 });
 
 app.use("/", routes);
-//schedulerFetchJob();
+schedulerFetchJob();
 
 app.listen(8080, function(){
     console.log("Running on Port 8080");

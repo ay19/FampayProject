@@ -9,3 +9,16 @@ To make an API to fetch latest videos sorted in reverse chronological order of t
     1. `/videos` for fetching videos sorted by published datetime.
     2. `/videos/pagination` for fetching videos sorted by published datetime and paginated.
 - Optimised Search API using fuzzy matching for phrases like `How to make a tea?` matched with `tea how`.
+
+### Development
+
+1. Clone project :`git clone https://github.com/ay19/FampayProject.git`
+
+2. Change YOUTUBE_API_KEY in config/config.json. You can also change default value of MONGODB_URI and YOUTUBE_SEARCH_QUERY.
+YOUTUBE_API_KEY = [ "API_KEY1", "API_KEY2",...]
+
+3. Install dependencies : `npm i`
+
+4. Run project: `node app.js`
+
+Make sure your mongoDB server is connected.
