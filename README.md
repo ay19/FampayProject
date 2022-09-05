@@ -22,3 +22,7 @@ YOUTUBE_API_KEY = [ "API_KEY1", "API_KEY2",...]
 4. Run project: `node app.js`
 
 Make sure your mongoDB server is connected.
+
+After project is up and running use this postman curl to hit the API:
+1. curl --location --request GET 'http://localhost:8080/videos?limit=2&searchPhrase=show football'
+2. curl --location --request GET 'http://localhost:8080/videos/pagination?searchPhrase=show football&page=2'
